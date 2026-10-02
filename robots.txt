@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Bloqueia parâmetros de rastreamento duplicado
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+
+# Arquivos internos
+Disallow: /js/
+Disallow: /.tables/
+
+Sitemap: https://thaismacenna.com.br/sitemap.xml
